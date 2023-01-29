@@ -1,0 +1,67 @@
+GET https://www.googleapis.com/books/v1/volumes?q=Turing;: {
+  "Network"
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.30.0",  				// This is the user agent postman, which makes the request to API
+    "accept": "*/*",								// indicate any MIME type so the client is able to understand
+    "postman-token": "5080aded-fe71-4aa3-a7cc-b9849f9e39c5",	// this is the token that Postman sends
+    "host": "www.googleapis.com",						// specify the host and port number of the server to which the request is being sent
+    "accept-encoding": "gzip, deflate, br",				// decrible how the data encoded 
+    "connection": "keep-alive"						// keep the network connection stays open after the current transaction finishes. keep-alive means the connection is persistent and not closed 
+  },
+  "Response Headers": {
+    "content-type": "application/json; charset=UTF-8",  		// content-type of the coming back using type charset = UTF-8
+    "vary": [									// different vary headers
+      "Origin",
+      "X-Origin",
+      "Referer"
+    ],
+    "content-encoding": "gzip",						// this is the content (gzip) encoded
+    "date": "Sun, 29 Jan 2023 05:44:39 GMT",				// date and time at which the message originated
+    "server": "ESF",								// this is the type of server
+    "cache-control": "private",						// it controls caching in browsers and shared caches
+    "x-xss-protection": "0",							// a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks
+    "x-frame-options": "SAMEORIGIN",					// it is an indicator whether or not a browser should be alloed to render a page
+    "x-content-type-options": "nosniff",					// a marker used by the server to indicate that the MIME types advertised in the Content-Type headers should be followed and not be changed
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000", // it allows a server to indicate that another network location (the "alternative service") can be treated as authoritative for that origin when making future requests
+    "transfer-encoding": "chunked"						// it  specifies the form of encoding used to safely transfer the payload body to the user
+  },
+  "Response Body": "The console only shows response bodies smaller than 10 KB inline. To view the complete body, inspect it by clicking Open."
+}
+'Id: LFQ7DwAAQBAJ with title: The Annotated Turing'
+'Id: 4muYDwAAQBAJ with title: Alan Turing: The Enigma'
+'Id: dSUTDAAAQBAJ with title: The Essential Turing'
+'Id: Bf0NDAAAQBAJ with title: Turing\'s Vision'
+'Id: w4YSDAAAQBAJ with title: Turing'
+'Id: s9VHYgEACAAJ with title: Alan Turing'
+'Id: XyzstMs30GYC with title: Turing\'s Cathedral'
+'Id: BlPZ3sHHWpMC with title: Alan Turing'
+'Id: NDiU62j7jeMC with title: The New Turing Omnibus'
+'Id: waj6-DavmX4C with title: A Madman Dreams of Turing Machines'
+GET https://www.googleapis.com/books/v1/volumes/LFQ7DwAAQBAJ: {
+  "Network"
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.30.0",				// This is the user agent postman, which makes the request to API
+    "accept": "*/*",								// indicate any MIME type so the client is able to understand
+    "postman-token": "6eed311c-fd7a-4d00-ba57-3e12b578270e",	// this is the token that Postman sends
+    "host": "www.googleapis.com",						// specify the host and port number of the server to which the request is being sent
+    "accept-encoding": "gzip, deflate, br",				// decrible how the data encoded 
+    "connection": "keep-alive"						// keep the network connection stays open after the current transaction finishes. keep-alive means the connection is persistent and not closed 
+  },
+  "Response Headers": {
+    "content-type": "application/json; charset=UTF-8",		// content-type of the coming back using type charset = UTF-8
+    "vary": [									// different vary headers
+      "Origin",
+      "X-Origin",
+      "Referer"
+    ],
+    "content-encoding": "gzip",						// this is the content (gzip) encoded
+    "date": "Sun, 29 Jan 2023 05:44:42 GMT",				// date and time at which the message originated
+    "server": "ESF",								// type of server
+    "cache-control": "private",						// it controls caching in browsers and shared caches
+    "x-xss-protection": "0",							// a feature of Internet Explorer, Chrome and Safari that stops pages from loading when they detect reflected cross-site scripting (XSS) attacks
+    "x-frame-options": "SAMEORIGIN",					// it is an indicator whether or not a browser should be alloed to render a page
+    "x-content-type-options": "nosniff",					// a marker used by the server to indicate that the MIME types advertised in the Content-Type headers should be followed and not be changed
+    "alt-svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",  // it allows a server to indicate that another network location (the "alternative service") can be treated as authoritative for that origin when making future requests
+    "transfer-encoding": "chunked"						// it  specifies the form of encoding used to safely transfer the payload body to the user
+  },
+  "Response Body"
